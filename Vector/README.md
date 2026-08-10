@@ -2,7 +2,7 @@
 ### 5WH
 What? - This is a lib that you want to use if you (or your mind) see the 'numpy' so slow for your work (or not);
 
-Why? - The Vector I write with C++ (or not) is the reallable to use for your work (or not);
+Why? - The Vector I write with C++ (or not) is the realiable to use for your work (or not);
 
 Who? - You (or your mum);
 
@@ -19,7 +19,7 @@ How? - 'pip install' this repo and you will have this vector anywhere you want (
 
 - Dont ask me why I use primitive type instead Generic or void*. Ask why your computer (not my computer) was fired;
 
-- Code was wrote by a student 15 years-old (yep, me) not like to use `std::vector` and hate the delays. If it faster than your code, dont cry;
+- Code was written by a student 15 years-old (yep, me) not like to use `std::vector` and hate the delays. If it faster than your code, dont cry;
 
 
 ### Performance
