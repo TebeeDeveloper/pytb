@@ -2,7 +2,7 @@
 ### 5WH
 What? - This is a lib that you want to use if you (or your mind) see the 'numpy' so slow for your work (or not);
 
-Why? - The Vector I write with C++ (not yet) is the reallable to use for your work (or not);
+Why? - The Vector I write with C++ (or not) is the reallable to use for your work (or not);
 
 Who? - You (or your mum);
 
