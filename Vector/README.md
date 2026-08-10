@@ -10,7 +10,7 @@ When? - Anytime when you need to process an Array but you dont want to wait the 
 
 Where? - Inlining your Project;
 
-How? - 'pip install' this github .whl and you will have this vector anywhere you want (like your mum's house);
+How? - 'pip install' this repo and you will have this vector anywhere you want (like your mum's house);
 
 #### Disclaimer
 - If you broke your RAM (not me), it's not my fault (yep). It's your computers (and your mum's computers);
