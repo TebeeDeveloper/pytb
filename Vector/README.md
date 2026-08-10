@@ -26,6 +26,17 @@ How? - 'pip install' this repo and you will have this vector anywhere you want (
 - Benchmark: It fast (faster than your mum broom);
 - Memory: Minimal (fits your mum's Nokia 1100);
 
+### Benchmark table
+| Stage             | NumPy (s)  | VectorInt (s) |
+|-------------------|------------|---------------|
+| Import            | 0.601076   | 0.003640      |
+| Load data         | 0.162039   | 0.024884      |
+| Execute (sum)     | 0.005819   | 0.001490      |
+| Execute (sort)    | 0.237492   | 0.055413      |
+| Execute (find)    | 0.002529   | 0.000034      |
+| Execute (dot)     | 0.002813   | 0.002763      |
+| **TOTAL**         | **1.011769** | **0.088225**  |
+
 ### Usage Example
 ```C
 #include "vector_int.h"
