@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytb-vector"
+version = "0.1.0"
+authors = [{ name = "TebeeDeveloper" }]
+description = "VectorInt nhanh nhẹn – C/Cython, có gợi ý kiểu sẵn"
+readme = "Vector/README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: C",
+    "Programming Language :: Cython",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+# Đảm bảo đóng gói file .pyi stub
+[tool.setuptools.package-data]
+"pytb.Vector" = ["*.pyi"]
