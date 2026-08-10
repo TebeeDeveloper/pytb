@@ -17,38 +17,14 @@ How? - 'pip install' this github .whl and you will have this vector anywhere you
 -- Memory: Minimal (fits your mum's Nokia 1100);
 
 ### Usage Example
-C {
-    #include "vector_int.h"
-
-    int main() {
-        // Not to import numpy;
-        // Not to wait;
-        // Need the logical and speed;
-        VectorInt *v = vector_int_init(20000000000);
-        // It's over before you even blink;
-        return 0;
-    }
+```C
+#include "vector_int.h"
+int main() {
+    // Not to import numpy;
+    // Not to wait;
+    // Need the logical and speed;
+    VectorInt *v = vector_int_init(20000000000);
+    // It's over before you even blink;
+    return 0;
 }
-
-
-#ifdef Shiroko_Sunaookami
-#define_When_you_feel_it_s_hopeless
-#define_When_you_think_that_you_lost,_oh
-#define_I_will_take_your_hand_and
-#define_We_ll_rise_up_from_the_dust,_oh
-#define_Here_we_go_go_go
-#define_Let_us_heal_and_grow
-#define_You_won_t_be_alone
-#define_We_re_unstoppable
-#define_Don_t_be_afraid_to_show
-#define_What_we_re_going_for
-#define_This_is_what_we_know
-#define_Here_we_come_back_to_life,_we_re_still_breathing
-#define_Standing_up,_everybody_s_gonna_see_it
-#define_Oh_all_you_need_to_know_is_that_we_re_holding_on
-#define_Even_if_we_fall_we_will_rise_up
-#define_And_we_follow_the_path_that_we_believe_in
-#define_No_we_re_not_gonna_stop_until_we_reach_it
-#define_Oh_all_you_need_to_know_is_that_we_re_holding_on
-#define_We_rise_up_from_the_dust_and_claim_our_throne
-#endif
+```
