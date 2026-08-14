@@ -37,6 +37,8 @@ How? - 'pip install' this repo and you will have this vector anywhere you want (
 | Execute (dot)     | 0.002813   | 0.002763      |
 | **TOTAL**         | **1.011769** | **0.088225**  |
 
+Caution: THis benchmark table was been on my I3-380M. Please dont laugh at me!
+
 ### Usage Example
 ```C
 #include "vector_int.h"
